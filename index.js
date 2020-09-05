@@ -1,5 +1,4 @@
-// Your code here
-function createEmployeeRecord() { 
+let createEmployeeRecord() { 
   return {
     firstName: row[0],
     lastName: row[1],
