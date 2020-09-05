@@ -9,7 +9,7 @@ let createEmployeeRecord = function(row) {
   }
 }
 
-createEmployeeRecords = function(row) { 
+createEmployeeRecords = function(employeeRowData) { 
 }
 
 function createTimeInEvent() { 
