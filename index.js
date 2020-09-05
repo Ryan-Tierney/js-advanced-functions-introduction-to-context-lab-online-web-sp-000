@@ -10,7 +10,7 @@ let createEmployeeRecord = function(row) {
 }
 
 createEmployeeRecords = function(employeeRowData) { 
-  return employeeRowData
+  return employeeRowData.map(function)
 }
 
 function createTimeInEvent() { 
