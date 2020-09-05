@@ -11,8 +11,14 @@ let createEmployeeRecord = function(row) {
 
 let createEmployeeRecords = function(employeeRowData) { 
   return employeeRowData.map(function(row) {
-    return createEmployeeRecord.row
+    return createEmployeeRecord(row)
   })
+}
+
+let createEmployees = function(employeeRowData) {
+    return employeeRowData.map(function(row){
+        return createEmployeeRecord(row)
+    })
 }
 
 function createTimeInEvent() { 
