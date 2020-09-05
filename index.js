@@ -1,7 +1,12 @@
 // Your code here
 function createEmployeeRecord() { 
   return {
-    firstName: row[0]
+    firstName: row[0],
+    lastName: row[1],
+    title: row[2], 
+    payPerHour: row[3],
+    timeInEvents: row[4],
+    timeOutEvents: row[5]
 }
 
 function createEmployeeRecords() { 
