@@ -18,7 +18,7 @@ let createEmployeeRecords = function(employeeRowData) {
 let createTimeinEvent = function(employee, datestamp) { 
   let [date, hour] = datestamp.split(' ')
   
-  employee.
+  employee.timeInEvent
 } 
 
 let createTimeOutEvent = function(employee, datestamp) { 
