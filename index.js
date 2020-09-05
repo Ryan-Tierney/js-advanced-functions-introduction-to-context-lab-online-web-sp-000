@@ -22,8 +22,8 @@ let createTimeinEvent = function(employee, datestamp) {
     type: "TimeIn" 
     hour: parseint(hour, 10)
     date,
-    
   })
+  return date
 } 
 
 let createTimeOutEvent = function(employee, datestamp) { 
