@@ -38,4 +38,11 @@ let createTimeOutEvent = function(employee, datestamp) {
   return employee
 } 
 
-let hoursWorkedOnDate = function(employee)
+let hoursWorkedOnDate = function(employee, soughtDate) { 
+} 
+
+let wagesEarnedOnDate = function(employee, soughtDate, hoursWorkedOnDate) { 
+}
+
+let allWagesFor = function(employee) { 
+}
