@@ -1,6 +1,6 @@
 // Your code here
 function createEmployeeRecord() { 
-  return firstName
+  return firstName: row[0]
 }
 
 function createEmployeeRecords() { 
