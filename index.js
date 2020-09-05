@@ -9,7 +9,7 @@ let createEmployeeRecord = function(row) {
   }
 }
 
-createEmployeeRecords = function(employeeRowData) { 
+let createEmployeeRecords = function(employeeRowData) { 
   return employeeRowData.map(function(row) {
     return createEmloyeeRecord.row
   })
