@@ -74,7 +74,7 @@ let createEmployeeRecords = function(src) {
   })
 }
 
-let findEmployeebyFirstName = function(srcArray, firstName) {
+let findEmployeeByFirstName = function(srcArray, firstName) {
   return srcArray.find(function(rec){
     return rec.firstName === firstName
   })
