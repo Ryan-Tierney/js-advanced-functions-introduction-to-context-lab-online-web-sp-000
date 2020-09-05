@@ -19,7 +19,8 @@ let createTimeinEvent = function(employee, datestamp) {
   let [date, hour] = datestamp.split(' ')
   
   employee.timeInEvents.push({
-    type: Timein
+    type: "TimeIn" 
+    
     
   })
 } 
