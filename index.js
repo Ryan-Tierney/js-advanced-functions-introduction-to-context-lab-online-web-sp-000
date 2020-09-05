@@ -15,8 +15,8 @@ let createEmployeeRecords = function(employeeRowData) {
   })
 }
 
-let createTimeinEvent = function() { 
+let createTimeinEvent = function(employee, datestamp) { 
 } 
 
-let createTimeOutEvent = function() { 
+let createTimeOutEvent = function(employee, datestamp) { 
 } 
