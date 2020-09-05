@@ -7,6 +7,7 @@ function createEmployeeRecord() {
     payPerHour: row[3],
     timeInEvents: [],
     timeOutEvents: []
+  }
 }
 
 function createEmployeeRecords() { 
