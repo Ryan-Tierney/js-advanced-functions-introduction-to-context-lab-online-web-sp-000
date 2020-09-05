@@ -37,3 +37,5 @@ let createTimeOutEvent = function(employee, datestamp) {
   })
   return employee
 } 
+
+let hoursWorkedOnDate = function(employee)
