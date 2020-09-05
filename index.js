@@ -15,7 +15,7 @@ let createEmployeeRecords = function(employeeRowData) {
   })
 }
 
-let createTimeinEvent = function(employee, datestamp) { 
+let createTimeInEvent = function(employee, datestamp) { 
   let [date, hour] = datestamp.split(' ')
   
   employee.timeInEvents.push({
